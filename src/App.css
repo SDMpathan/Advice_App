@@ -1,0 +1,62 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.app{
+  height: 100vh;
+  background: url("https://images7.alphacoders.com/411/thumb-1920-411820.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.board{
+    background-color: rgb(114, 176, 204);
+    height: 15vw;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:5vw 0 ;
+    border: 2px solid rgb(206, 78, 78);
+}
+
+.text{
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    font-size:2.5vw;
+    font-family: 'Caveat', cursive;
+    color: rgb(241, 28, 74);
+}
+
+.button{
+    position: relative;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 3vw;
+    width: 16vw;
+    outline: none;
+    border: 0.1vw solid rgb(0, 0, 0);
+    margin: 10px;
+    font-family: 'Caveat', cursive;
+    font-size: 1.3vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 80%;
+        height: 30%;
+    }
+}
